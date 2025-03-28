@@ -1,0 +1,45 @@
+LicenseKey: "KEYAUTH-LfYTeh-VkyFeg-l2s28n-IuI5cw-DY6SlM-SAgCi3"
+Threads: 1 # Number of threads to run
+
+TerminalLogging:
+  LoggingMode: "all" # all/important/none | 'all' - prints all logs of the redeemer, 'important' - prints only important messages, 'none' - prints nothing, just shows the count of redeems done.
+  ServiceName: "@Sasta Bazar" # Service name will be printed in the terminal and also in the command title.
+  ShowEmojis: True # If true shows emojis in terminal logging, if false doesnt show any emoji
+
+SilentFeatures:
+  CardAdderMode: False # Adds a card only (doesn't redeem).
+  CheckTokens: False # Checks tokens before redeeming.
+  DatedOutput: True # Creates dated output folders.
+
+ProxySetting:
+  UseProxy: False # Set to True if you want to use proxies.
+  Proxy: "" # Enter your proxy details here.
+
+Redeeming:
+  SleepAfterRedeem: 2 # Sleep seconds after each redeem (put 0 to disable this feature).
+  BypassCannotRedeemGift: True # Bypasses the "Cannot redeem gift" error.
+  RemoveVCC: True # Removes the VCC after redeeming.
+  RedeemWithPreAddedCard: False # Redeems using a pre-added card on the token.
+  SleepAfterXAmountOfRedeems: 0 # Set to 0 to disable this. If you want to use, specify the number of tokens after which the redeemer should sleep.
+  SleepAfterXAmountOfRedeemsDelay: 10 # Delay in seconds after sleeping for multiple redeems.
+  VccUsage: 4 # Number of times a virtual credit card (VCC) is used.
+  BillingINFO:
+    Address: " shooop 11"
+    State: "Punjab"
+    City: "islamabad"
+    Postal: "46000"
+    Country: "PK" # Country code, usually 2 letters (DM me for help).
+    CardHolderName: "Joseph Dbratt"
+
+Watermarking:
+  Use: false # Set to True to enable watermarking.
+  BIO: "@Sastabazar" # Use '\n' if you want to add a new line here.
+  GlobalName: "drxzner" # The global name after redeeming.
+  Pronouns: "fireasf" # Pronunciation used after redeeming.
+
+
+DiscordBotLogging:
+  UseBot: True # Put True to enable this feature
+  BotToken: "MTMwMjM4MDIzODI1NjQ3NjMwMQ.GBlhbU.jFs44WwxXnpw8FRsUC755HpYKtDFc-6Izii_dc"
+  LogChannelID: "1275166281913335858"
+  ServiceName: "@SastaBazar"
